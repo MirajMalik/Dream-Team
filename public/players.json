@@ -23,7 +23,7 @@
     "name": "Litton Das",
     "image": "https://i.ibb.co.com/svXwZr84/liton-das.jpg",
     "country": "Bangladesh",
-    "role": "Wicketkeeper Batsman",
+    "role": "Batsman",
     "rating": 88,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "N/A",
@@ -51,7 +51,7 @@
   },
   {
     "name": "Dasun Shanaka",
-    "image": "images/players/dasun_shanaka.jpg",
+    "image": "https://i.ibb.co.com/sJDXmDns/Shakib-Al-Hasan.avif",
     "country": "Sri Lanka",
     "role": "All-rounder",
     "rating": 84,
@@ -81,9 +81,9 @@
   },
   {
     "name": "Mohammad Mithun",
-    "image": "images/players/mithun.jpg",
+    "image": "https://i.ibb.co.com/sJDXmDns/Shakib-Al-Hasan.avif",
     "country": "Bangladesh",
-    "role": "Wicketkeeper Batsman",
+    "role": "Batsman",
     "rating": 78,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "N/A",
@@ -91,7 +91,7 @@
   },
   {
     "name": "Habibur Rahman Sohan",
-    "image": "images/players/sohan_jr.jpg",
+    "image": "https://i.ibb.co.com/sJDXmDns/Shakib-Al-Hasan.avif",
     "country": "Bangladesh",
     "role": "Batsman",
     "rating": 79,
