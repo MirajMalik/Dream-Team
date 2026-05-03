@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Mohammad Naim",
+    "image": "https://i.ibb.co.com/ccbWRFSJ/naim.png",
+    "country": "Bangladesh",
+    "role": "Opening Batsman",
+    "rating": 82,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "priceInTaka": 11000000
+  },
+  {
+    "name": "Towhid Hridoy",
+    "image": "https://i.ibb.co.com/7xY21g07/tahhid.webp",
+    "country": "Bangladesh",
+    "role": "Batsman",
+    "rating": 86,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "priceInTaka": 9200000
+  },
+  {
+    "name": "Litton Das",
+    "image": "https://i.ibb.co.com/svXwZr84/liton-das.jpg",
+    "country": "Bangladesh",
+    "role": "Wicketkeeper Batsman",
+    "rating": 88,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "N/A",
+    "priceInTaka": 7000000
+  },
+  {
+    "name": "Mohammad Saifuddin",
+    "image": "https://i.ibb.co.com/Hfxfm6MQ/saifuddin241001.jpg",
+    "country": "Bangladesh",
+    "role": "All-rounder",
+    "rating": 83,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm fast-medium",
+    "priceInTaka": 6800000
+  },
+  {
+    "name": "Tanzid Tamim",
+    "image": "https://i.ibb.co.com/DDPCLNn9/tanzid-tamim-half-century-vs-ire-02-12-2025.jpg",
+    "country": "Bangladesh",
+    "role": "Batsman",
+    "rating": 88,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "N/A",
+    "priceInTaka": 6500000
+  },
+  {
+    "name": "Dasun Shanaka",
+    "image": "images/players/dasun_shanaka.jpg",
+    "country": "Sri Lanka",
+    "role": "All-rounder",
+    "rating": 84,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "priceInTaka": 6545000
+  },
+  {
+    "name": "Nahid Rana",
+    "image": "https://i.ibb.co.com/x852VRPg/Nahid-Rana-2.avif",
+    "country": "Bangladesh",
+    "role": "Bowler",
+    "rating": 80,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "priceInTaka": 5600000
+  },
+  {
+    "name": "Shakib Al Hasan",
+    "image": "https://i.ibb.co.com/sJDXmDns/Shakib-Al-Hasan.avif",
+    "country": "Bangladesh",
+    "role": "All-rounder",
+    "rating": 90,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Left-arm offbreak",
+    "priceInTaka": 5600000
+  },
+  {
+    "name": "Mohammad Mithun",
+    "image": "images/players/mithun.jpg",
+    "country": "Bangladesh",
+    "role": "Wicketkeeper Batsman",
+    "rating": 78,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "N/A",
+    "priceInTaka": 5200000
+  },
+  {
+    "name": "Habibur Rahman Sohan",
+    "image": "images/players/sohan_jr.jpg",
+    "country": "Bangladesh",
+    "role": "Batsman",
+    "rating": 79,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "N/A",
+    "priceInTaka": 5000000
+  },
+  {
+    "name": "Mushfiqur Rahim",
+    "image": "https://i.ibb.co.com/m5YkXwHD/Mushfiq.jpg",
+    "country": "Bangladesh",
+    "role": "Wicketkeeper Batsman",
+    "rating": 87,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "N/A",
+    "priceInTaka": 3500000
+  },
+  {
+    "name": "Mahmudullah",
+    "image": "https://i.ibb.co.com/VpmjhnGS/Mahmudullah.jpg",
+    "country": "Bangladesh",
+    "role": "All-rounder",
+    "rating": 85,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "priceInTaka": 3500000
+  }
+]
