@@ -3,7 +3,7 @@ import coinImage from '/src/assets/dollar.png'
 
 function Navbar() {
 return (
-    <div className="navbar max-w-[1200px] mx-auto bg-base-300 shadow-sm">
+    <div className="navbar max-w-[1200px] mx-auto bg-base-400 shadow-sm">
         <div className="flex-1">
             <img className="w-[60px] h-[60px] ml-4" src={logo} alt="Logo" />
         </div>
