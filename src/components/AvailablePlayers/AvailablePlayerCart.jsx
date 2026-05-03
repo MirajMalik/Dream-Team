@@ -1,11 +1,12 @@
 // import React from 'react';
+import { useState } from 'react';
 import userImage from '../../assets/Group.png'
 import flagImage from '../../assets/flag.png'
 
 const AvailablePlayerCart = ({ player }) => {
-    const {name, image, country, role, rating, battingStyle, bowlingStyle, 
-    priceInTaka} = player;
-    console.log(player);
+    const {name, image, country, role, rating, battingStyle, bowlingStyle,priceInTaka} = player;
+    const [isSelected, setIsSelected] = useState(false);
+    // console.log(player);
 return (
     <div className="card bg-base-100 shadow-sm border-2 p-4">
         <figure>
@@ -44,7 +45,10 @@ return (
 
             <div className="card-actions mt-4 flex justify-between items-center">
                 <p className='font-bold'>Price: ${priceInTaka}</p>
-                <button className="btn p-2 cursor-pointer hover:text-gray-400">Choose Player</button>
+                <button 
+                    onClick={() => setIsSelected(true)}
+                    disabled = {isSelected}
+                    className="btn p-2 cursor-pointer hover:text-gray-400">{isSelected ? "Selected" : "Choose Player"}</button>
             </div>
         </div>
     </div>
