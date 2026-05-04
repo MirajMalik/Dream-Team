@@ -28,10 +28,10 @@ function App() {
     }
 
     const removePlayer = (playerData) => {
-      // console.log(p);
+      console.log(playerData);
       const filteredPlayers = selectedPlayers.filter(p => p.name !== playerData.name);
       setSelectedPlayers(filteredPlayers);
-
+      setAvailableBalance(prev => prev + playerData.priceInTaka)
     }
     
 
