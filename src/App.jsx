@@ -1,4 +1,5 @@
 import './index.css'
+import { ToastContainer} from 'react-toastify';
 import Navbar from './components/Navbar/Navbar'
 import AvailablePlayers from './components/AvailablePlayers/AvailablePlayers'
 import SelectedPlayers from './components/SelectedPlayers/SelectedPlayers'
@@ -41,7 +42,7 @@ function App() {
 
       <div className='flex items-center justify-between mt-3 mb-5 max-w-[1200px] mx-auto'>
         <h1 className='font bold text-2xl'>{
-            toggle ? "Available Players" : `Selected Players (${selectedPlayers.length}/11)`
+            toggle ? "Available Players" : `Selected Players (${selectedPlayers.length}/6)`
             }
         </h1>
         <div>
@@ -62,7 +63,7 @@ function App() {
       {
         toggle === true ? 
           <Suspense fallback = {<span className="loading loading-spinner text-info flex items-center justify-center mx-auto"></span>}>
-            <AvailablePlayers playersPromise = {playersPromise} availableBalance = {availableBalance} setAvailableBalance = {setAvailableBalance} setSelectedPlayers = {setSelectedPlayers} />
+            <AvailablePlayers playersPromise = {playersPromise} availableBalance = {availableBalance} setAvailableBalance = {setAvailableBalance} setSelectedPlayers = {setSelectedPlayers} selectedPlayers= {selectedPlayers} />
           </Suspense>
          : 
         <SelectedPlayers  
@@ -70,6 +71,9 @@ function App() {
           removePlayer = {removePlayer}
         />
       }
+
+
+      <ToastContainer />
 
       
          
