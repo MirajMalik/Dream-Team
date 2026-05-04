@@ -16,6 +16,7 @@ const playersPromise = fetchPlayers();
 function App() {
     const [toggle, setToggle] = useState(true);
     const [availableBalance, setAvailableBalance] = useState(60000000);
+    const [selectedPlayers, setSelectedPlayers] = useState([]);
 
     const handleButtons = (type) => {
       if(type === "available"){
@@ -32,7 +33,10 @@ function App() {
       <Navbar availableBalance = {availableBalance} />
 
       <div className='flex items-center justify-between mt-3 mb-5 max-w-[1200px] mx-auto'>
-        <h1 className='font bold text-2xl'>Available Players</h1>
+        <h1 className='font bold text-2xl'>{
+            toggle ? "Available Players" : `Selected Players (${selectedPlayers.length}/11)`
+            }
+        </h1>
         <div>
           <button 
             onClick={() => handleButtons("available")} 
@@ -42,7 +46,7 @@ function App() {
           <button 
             onClick={() => handleButtons("selected")} 
             className={`py-2 px-5  border-2 rounded-r-2xl border-l-0 ${toggle === false ? "bg-slate-900" : ""}`}>
-              Selected <span>(0)</span>
+              Selected <span>({selectedPlayers.length})</span>
           </button>
         </div>
 
@@ -51,10 +55,10 @@ function App() {
       {
         toggle === true ? 
           <Suspense fallback = {<span className="loading loading-spinner text-info flex items-center justify-center mx-auto"></span>}>
-            <AvailablePlayers playersPromise = {playersPromise} availableBalance = {availableBalance} setAvailableBalance = {setAvailableBalance} />
+            <AvailablePlayers playersPromise = {playersPromise} availableBalance = {availableBalance} setAvailableBalance = {setAvailableBalance} setSelectedPlayers = {setSelectedPlayers} />
           </Suspense>
          : 
-         <SelectedPlayers />
+         <SelectedPlayers  selectedPlayers={selectedPlayers}/>
       }
 
       

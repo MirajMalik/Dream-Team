@@ -3,7 +3,7 @@ import { useState } from 'react';
 import userImage from '../../assets/Group.png'
 import flagImage from '../../assets/flag.png'
 
-const AvailablePlayerCart = ({ player, setAvailableBalance, availableBalance }) => {
+const AvailablePlayerCart = ({ player, setAvailableBalance, availableBalance, setSelectedPlayers }) => {
     const {name, image, country, role, rating, battingStyle, bowlingStyle,priceInTaka} = player;
     const [isSelected, setIsSelected] = useState(false);
     // console.log(player);
@@ -53,6 +53,12 @@ return (
                         }
                         setIsSelected(true)
                         setAvailableBalance(availableBalance-priceInTaka)
+                        setSelectedPlayers(prev => {
+                            const exists = prev.find(pl => pl.name === player.name);
+                            if (exists) return prev;
+                            return [...prev,player];
+                        })
+                        
                     }}
                     disabled = {isSelected}
                     className="btn p-2 cursor-pointer hover:text-gray-400">{isSelected ? "Selected" : "Choose Player"}</button>
