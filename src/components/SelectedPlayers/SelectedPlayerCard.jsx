@@ -1,6 +1,9 @@
 // import React from 'react';
 
-const SelectedPlayerCard = ({player}) => {
+const SelectedPlayerCard = ({player, removePlayer }) => {
+    const handleRemove = () => {
+        removePlayer(player)
+    }
     return (
     <div className="flex items-center justify-between bg-slate-800 text-white rounded-xl border border-slate-700 px-4 py-3 hover:bg-slate-700 transition-colors">
 
@@ -17,7 +20,7 @@ const SelectedPlayerCard = ({player}) => {
         </div>
 
       <button
-        // onClick={() => onDelete(player)}
+        onClick={() => handleRemove()}
         className="text-red-500 hover:text-red-400 text-sm font-medium transition-colors"
       >
         ✕

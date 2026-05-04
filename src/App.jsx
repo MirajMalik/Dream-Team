@@ -26,6 +26,13 @@ function App() {
         setToggle(false)
       }
     }
+
+    const removePlayer = (playerData) => {
+      // console.log(p);
+      const filteredPlayers = selectedPlayers.filter(p => p.name !== playerData.name);
+      setSelectedPlayers(filteredPlayers);
+
+    }
     
 
   return (
@@ -58,7 +65,10 @@ function App() {
             <AvailablePlayers playersPromise = {playersPromise} availableBalance = {availableBalance} setAvailableBalance = {setAvailableBalance} setSelectedPlayers = {setSelectedPlayers} />
           </Suspense>
          : 
-         <SelectedPlayers  selectedPlayers={selectedPlayers}/>
+        <SelectedPlayers  
+          selectedPlayers={selectedPlayers}
+          removePlayer = {removePlayer}
+        />
       }
 
       
