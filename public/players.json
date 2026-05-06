@@ -50,13 +50,13 @@
     "priceInTaka": 6500000
   },
   {
-    "name": "Dasun Shanaka",
-    "image": "https://i.ibb.co.com/sJDXmDns/Shakib-Al-Hasan.avif",
-    "country": "Sri Lanka",
+    "name": "Soumya Sarkar",
+    "image": "https://i.ibb.co.com/dwWTqSQJ/377807.webp",
+    "country": "Bangladesh",
     "role": "All-rounder",
     "rating": 84,
-    "battingStyle": "Right-hand bat",
-    "bowlingStyle": "Right-arm medium",
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Left-arm medium",
     "priceInTaka": 6545000
   },
   {
@@ -80,18 +80,18 @@
     "priceInTaka": 5600000
   },
   {
-    "name": "Mohammad Mithun",
-    "image": "https://i.ibb.co.com/sJDXmDns/Shakib-Al-Hasan.avif",
+    "name": "Mehedi Hasan Miraz",
+    "image": "https://i.ibb.co.com/Wv52rjfd/362918.webp",
     "country": "Bangladesh",
-    "role": "Batsman",
+    "role": "All-rounder",
     "rating": 78,
     "battingStyle": "Right-hand bat",
-    "bowlingStyle": "N/A",
+    "bowlingStyle": "Right-arm offbreak",
     "priceInTaka": 5200000
   },
   {
     "name": "Habibur Rahman Sohan",
-    "image": "https://i.ibb.co.com/sJDXmDns/Shakib-Al-Hasan.avif",
+    "image": "https://i.ibb.co.com/gbg3DPhp/habibur-rahman-sohan-2025-11-15-16-39-16.webp",
     "country": "Bangladesh",
     "role": "Batsman",
     "rating": 79,
