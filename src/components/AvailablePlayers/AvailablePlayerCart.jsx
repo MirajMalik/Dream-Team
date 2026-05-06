@@ -63,6 +63,8 @@ return (
                             if (exists) return prev;
                             return [...prev,player];
                         })
+
+                    toast("Player Purchased")
                         
                     }}
                     disabled = {isSelected}
